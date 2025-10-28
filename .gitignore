@@ -33,5 +33,3 @@ node_modules/
 
 # Ignore a temp file
 temp_kinter.py
-
-*.png
