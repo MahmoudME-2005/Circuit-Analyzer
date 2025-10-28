@@ -1,0 +1,35 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore Python build files (if you used Python)
+__pycache__/
+*.pyc
+
+# Ignore compiled executables or binaries
+*.exe
+*.out
+*.obj
+
+# Ignore temporary or log files
+*.log
+*.tmp
+
+# Ignore environment files
+.env
+
+# Ignore node modules (if you used JS)
+node_modules/
+
+# Ignore backup files
+*.bak
+
+
+*.spec
+
+# Ignore a temp file
+temp_kinter.py
