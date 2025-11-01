@@ -8,7 +8,7 @@ A solo coding project built for college — it analyzes resistor circuits descri
 
 ---
 
-## 🧩 Circuit Description Format (Input)
+## Circuit Description Format (Input)
 
 ### 🔹 1. Series Connection  
 **Example:**  
