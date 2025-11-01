@@ -1,33 +1,105 @@
-# Circuit-Analyzer
-This repository contains a solo coding project i made for college it takes a circuit description consisting of resistors as an input and outputs it's equivalent resistance by recursuvely breaking down the circuit description into smaller series and parallel circuits then computing the equivalent resistance with outmost effeciency.
+<div align="center">
 
-The format of the circuit description(input):
+# ⚡ Circuit Analyzer  
 
-1- Series connection: s 2 2 e
+A solo coding project built for college — it analyzes resistor circuits described in text form and computes their **equivalent resistance** with utmost efficiency by recursively breaking down **series** and **parallel** connections.  
 
-Where the last example describes a circuit that looks like this:<br><br>
-![Diagram](Images/s22e.png)
+</div>
 
-if we calculate the equivalent resistance of this example it will equal 4.
+---
 
-2- Parallel connection: p 2 2 e
+## 🧩 Circuit Description Format (Input)
 
-Where the last example describes a circuit that looks like this:<br><br>
-![Diagram](Images/p22e.png)
+### 🔹 1. Series Connection  
+**Example:**  
+s 2 2 e
 
-if we calculate the equivalent resistance of this example it will equal 1.
+yaml
+Copy code
 
-3- Then we can combine both examples to have a slightly more complicated circuit with the circuit desription being: s22p22ee
+This describes a circuit that looks like this:  
+<br>
 
-For a circuit that looks like this:<br><br>
-![Diagram](Images/s22p22ee.png)
+<div align="center">
+  <img src="Images/s22e.png" alt="Series Diagram" width="300">
+</div>
 
-having an equivalent resistance of 5.
+**Equivalent Resistance:** `4 Ω`
 
-And here is the output of the code on all of the previous examples:<br><br>
+---
 
-![Diagram](Images/Outputs.png)
+### 🔸 2. Parallel Connection  
+**Example:**  
+p 2 2 e
 
-And you can test the code yourself with countless more possibilities.
+yaml
+Copy code
 
+This describes a circuit that looks like this:  
+<br>
 
+<div align="center">
+  <img src="Images/p22e.png" alt="Parallel Diagram" width="300">
+</div>
+
+**Equivalent Resistance:** `1 Ω`
+
+---
+
+### 🔹 3. Combined Series and Parallel  
+**Example:**  
+s22p22ee
+
+yaml
+Copy code
+
+This represents a more complex circuit combining both types of connections:  
+<br>
+
+<div align="center">
+  <img src="Images/s22p22ee.png" alt="Combined Diagram" width="300">
+</div>
+
+**Equivalent Resistance:** `5 Ω`
+
+---
+
+## 💻 Example Outputs  
+
+Here’s the output of the program for all the previous examples:  
+<br>
+
+<div align="center">
+  <img src="Images/Outputs.png" alt="Program Outputs" width="500">
+</div>
+
+Try it yourself — the program supports **countless circuit combinations!**
+
+---
+
+## 🧠 Key Concepts
+- Recursive parsing and breakdown of circuit descriptions  
+- Efficient computation of equivalent resistance  
+- Supports both **series** and **parallel** resistor networks  
+
+---
+
+## 🧰 Technologies Used
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" alt="C++ Logo"/>  
+<br>
+**Language:** C++  
+**IDE:** Visual Studio Code *(or any IDE you prefer)*  
+
+</div>
+
+---
+
+<div align="center">
+
+## 📬 Contact  
+
+📧 [mahmoud.ehab.moheb.dev@gmail.com](mailto:mahmoud.ehab.moheb.dev@gmail.com)
+
+</div>
