@@ -177,7 +177,19 @@ float circuit_analyzer(string des) // the function that manages the two circuit 
 int main()
 {
     string description;
-    getline(cin, description);
-    float x = circuit_analyzer(description);
-    cout << "The total resistance = " << x;
+    while (true)
+    {
+        cout << "Enter The circuit description or enter X to exit the program: ";
+        getline(cin, description);
+        if (description == "x" || description == "X")
+        {
+            cout << "Thank you for using my program.";
+            break;
+        }
+        else
+        {
+            float x = circuit_analyzer(description);
+            cout << "The equivalent resistance = " << x << endl;
+        }
+    }
 }
