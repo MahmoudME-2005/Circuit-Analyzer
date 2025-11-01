@@ -80,8 +80,8 @@ Try it yourself — the program supports **countless circuit combinations!**
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" alt="C++ Logo"/>  
 <br>
-**Language:** C++
-**IDE:** Visual Studio Code
+Language: C++<br>
+IDE: Visual Studio Code
 
 </div>
 
