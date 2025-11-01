@@ -1,5 +1,5 @@
 # Circuit-Analyzer
-This repository contains a solo coding project i made for college it takes a circuit description consisting of resistors as an input and outputs it's equivalent resistance
+This repository contains a solo coding project i made for college it takes a circuit description consisting of resistors as an input and outputs it's equivalent resistance by recursuvely breaking down the circuit description into smaller series and parallel circuits then computing the equivalent resistance with outmost effeciency.
 
 The format of the circuit description(input):
 
