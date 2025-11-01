@@ -6,4 +6,4 @@ The format of the circuit description(input):
 1- Series connection: s 2 2 e
 
 where the last example describes a circuit that looks like this:
-![Diagram](img646.png)
+![Diagram](s22e.png)
