@@ -14,9 +14,6 @@ A solo coding project built for college — it analyzes resistor circuits descri
 **Example:**  
 s 2 2 e
 
-yaml
-Copy code
-
 This describes a circuit that looks like this:  
 <br>
 
@@ -32,9 +29,6 @@ This describes a circuit that looks like this:
 **Example:**  
 p 2 2 e
 
-yaml
-Copy code
-
 This describes a circuit that looks like this:  
 <br>
 
@@ -49,9 +43,6 @@ This describes a circuit that looks like this:
 ### 🔹 3. Combined Series and Parallel  
 **Example:**  
 s22p22ee
-
-yaml
-Copy code
 
 This represents a more complex circuit combining both types of connections:  
 <br>
